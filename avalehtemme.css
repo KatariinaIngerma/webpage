@@ -1,0 +1,10 @@
+.float-child-element {
+    float: left;
+    width: 50%;
+    line-height: 2;
+}
+.float-parent-element {
+    content: "";
+    display: table;
+    clear: both;
+}
